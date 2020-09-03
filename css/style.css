@@ -1174,6 +1174,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
     margin-left: 0rem !important;
 }
+.no-gutters{
+  margin-left: 0px!important;
+}
 }
 @media screen and (max-width: 1440px){
   #about .about-img img {
@@ -1477,6 +1480,11 @@ section.charts {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+@media screen and (max-width:1024px){
+  .no-gutters{
+    margin-left: 15rem;
+  }
 }
 
 

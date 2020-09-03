@@ -337,93 +337,60 @@
       </div>
     </div>
   </main>
-  <script>
-    window.onload = function () {
-    
-    var chart = new CanvasJS.Chart("chartContainer", {
-      animationEnabled: true,
-      title:{
-        text: "Donation"
-      },	
-      axisY: {
-        title: "Donation Per Year in Thousand (INR)",
-        titleFontColor: "#4F81BC",
-        lineColor: "#4F81BC",
-        labelFontColor: "#4F81BC",
-        tickColor: "#4F81BC"
-      },
-      	
-      toolTip: {
-        shared: true
-      },
-      legend: {
-        cursor:"pointer",
-        itemclick: toggleDataSeries
-      },
-      data: [{
-        type: "column",
-        name: "Donation (thousand/year in 2016-17)",
-        legendText: "2016-2017",
-        showInLegend: true, 
-        dataPoints:[
-          { label: "Prayas", y: 50 },
-          { label: "Yogdaan", y: 220 },
-          { label: "CSR Donation", y: 250 },
-          { label: "Members", y: 740 },
-          { label: "Others", y: 600 },
-          { label: "Each", y: 450 }
-        ]
-      },
-      
-      {
-        type: "column",	
-        name: "Donation (thousand/year in 2017-18)",
-        legendText: "2017-2018",
-        axisYType: "secondary",
-        showInLegend: true,
-        dataPoints:[
-        { label: "Prayas", y: 400 },
-          { label: "Yogdaan", y: 280 },
-          { label: "CSR Donation", y: 260 },
-          { label: "Members", y: 490 },
-          { label: "Others", y: 240 },
-          { label: "Each", y: 990 }
-        ]
-      },
-      
-      
-      {
-        type: "column",	
-        name: "Donation (thousand/year in 2018-19)",
-        legendText: "2018-2019",
-        axisYType: "secondary",
-        showInLegend: true,
-        dataPoints:[
-        { label: "Prayas", y: 100 },
-          { label: "Yogdaan", y: 290 },
-          { label: "CSR Donation", y: 270 },
-          { label: "Members", y: 760 },
-          { label: "Others", y: 110 },
-          { label: "Each", y: 1240 }
-        ]
-      }]
-    });
-    chart.render();
-    
-    function toggleDataSeries(e) {
-      if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
-        e.dataSeries.visible = false;
-      }
-      else {
-        e.dataSeries.visible = true;
-      }
-      chart.render();
-    }
-    
-    }
-    </script>
-    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
-    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <!--==========================
+      Our Portfolio Section
+    ============================-->
+    <section id="portfolio" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Student Enrolled Classwise Per Year</h2>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="img/2017.JPG" class="portfolio-popup">
+                <img src="img/2017.JPG" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp"></h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="img/2018.JPG" class="portfolio-popup">
+                <img src="img/2018.JPG" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp"></h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="img/2019.JPG" class="portfolio-popup">
+                <img src="./img/2019.JPG" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp"></h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+  
     <!--==========================
       Services Section
     ============================-->
