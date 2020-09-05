@@ -715,3 +715,40 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
+ .btn-get-started
+ {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #000;
+}
+
+ .btn-get-started {
+  background: #fed136;
+  border: 2px solid #fed136;
+}
+
+.btn-get-started:hover {
+  background: none;
+  color: #0c2e8a;
+}
+
+ .btn-projects {
+  background: #50d8af;
+  border: 2px solid #50d8af;
+}
+
+.btn-projects:hover {
+  background: none;
+  color: #50d8af;
+}
+.text-uppercase {
+  text-transform: uppercase!important;
+  text-align: center;
+}

@@ -1,31 +1,31 @@
-@media (min-width: 768px) {
-    #contact .contact-address,
-    #contact .contact-phone,
-    #contact .contact-email {
-      padding: 20px 0;
-    }
-  
-    #contact .contact-phone {
-      border-left: 1px solid #ddd;
-      border-right: 1px solid #ddd;
-    }
+
+   @media screen and (max-width: 1440px){
+    #about .about-img img {
+      margin-left: 140px;
   }
+   .pb-3, .py-3 {
   
-  @media (min-width: 769px) {
-    #call-to-action .cta-btn-container {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-pack: end;
-      -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-      justify-content: flex-end;
+    margin-left: 8rem;
+  }
+  .card-body{
+    height: 140px;
+  }
+  }
+  @media screen and (max-width:1024px){
+    .no-gutters{
+      margin-left: 15rem;
     }
+    /*.card-custom-img{
+      min-height: 150px;
+    }*/
+    .card-custom {
+      
+      min-height: 510px;
+    
+  }
+  .card-body{
+    height: 130px!important;
+  }
   }
   
   @media (max-width: 768px) {
@@ -64,6 +64,17 @@
       width: 690px;
       position: relative;
     }
+    .text-uppercase{
+      font-size: 20px;
+      text-align: center;
+    }
+    .pb-3, .py-3 {
+  
+      margin-left: 0rem !important;
+  }
+  .no-gutters{
+    margin-left: 0px!important;
+  }
   }
   
   @media (max-width: 767px) {
@@ -96,55 +107,46 @@
     #contact #google-map {
       margin-top: 20px;
     }
-  }
-  .grey-bg {  
-    background-color: #F5F7FA;
-  }
-  .card-body{
-    height: 140px;
-  }
-  .text-uppercase{
-    font-weight: 500;
-    text-align: center;
-    font-size: 60px;
-  }
-  @media screen and (max-width: 320px){
-    .text-uppercase{
-      font-size: 20px;
+    .grey-bg {  
+      background-color: #F5F7FA;
     }
-    .card-custom-img{
-      background-size: contain;
+    .card-body{
+      height: 170px;
+    }
+    .text-uppercase{
+      font-weight: 500;
+      text-align: center;
+      font-size: 28px;
     }
   }
   @media screen and (max-width: 425px){
     .card-custom-img{
       background-size: contain !important;
+      min-height: 200px !important;
     }
+    .card-custom {
+      min-height: 450px!important;
   }
-  @media screen and (max-width: 768px){
+  .card-body {
+    height: 140px!important;
+}
+  }
+  @media screen and (max-width: 320px){
     .text-uppercase{
       font-size: 20px;
+    }.card-custom {
+      min-height: 520px!important;
+  }
+    .card-custom-img{
+      background-size: contain;
     }
-    .pb-3, .py-3 {
-      /* align-items: center; */
-      /* padding-bottom: 3rem!important; */
-  
-      margin-left: 0rem !important;
-  }
-  .no-gutters{
-    margin-left: 0px!important;
+    .card-body {
+      height: 150px!important;
   }
   }
-  @media screen and (max-width: 1440px){
-    #about .about-img img {
-      margin-left: 140px;
-  }
-   .pb-3, .py-3 {
-    /* align-items: center; */
-    /* padding-bottom: 3rem!important; */
-    margin-left: 8rem;
-  }
-  }
+
+
+ 
   .card-custom {
     overflow: hidden;
     min-height: 450px;
@@ -156,7 +158,7 @@
   
   .card-custom-img {
     
-    min-height: 150px;
+    min-height: 200px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -356,11 +358,52 @@
     font-size: 13px;
     color: #ddd;
   }
-  @media screen and (max-width:1024px){
-    .no-gutters{
-      margin-left: 15rem;
+  
+  @media screen and (min-width:1200px){
+    .col-xl-3.special {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
     }
   }
+  @media (min-width: 768px) {
+    #contact .contact-address,
+    #contact .contact-phone,
+    #contact .contact-email {
+      padding: 20px 0;
+    }
+    .card-custom-img{
+      min-width: 200px !important;
+    }
   
+    #contact .contact-phone {
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+    }
+    .card-custom {
+      
+      min-height: 480px!important;
+    
+  }
+  }
+  
+  @media (min-width: 769px) {
+    #call-to-action .cta-btn-container {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+    }
+  }
   
   
