@@ -10,6 +10,9 @@
   .card-body{
     height: 140px;
   }
+  .text-uppercase{
+    font-size: 50px;
+  }
   }
   @media screen and (max-width:1024px){
     .no-gutters{
@@ -24,7 +27,7 @@
     
   }
   .card-body{
-    height: 130px!important;
+    height: 140px!important;
   }
   }
   
@@ -65,7 +68,7 @@
       position: relative;
     }
     .text-uppercase{
-      font-size: 20px;
+      font-size: 40px;
       text-align: center;
     }
     .pb-3, .py-3 {
@@ -111,12 +114,12 @@
       background-color: #F5F7FA;
     }
     .card-body{
-      height: 170px;
+      height: 170px !important;
     }
     .text-uppercase{
       font-weight: 500;
       text-align: center;
-      font-size: 28px;
+      font-size: 36px;
     }
   }
   @media screen and (max-width: 425px){
@@ -133,7 +136,7 @@
   }
   @media screen and (max-width: 320px){
     .text-uppercase{
-      font-size: 20px;
+      font-size: 32px;
     }.card-custom {
       min-height: 520px!important;
   }
@@ -141,8 +144,10 @@
       background-size: contain;
     }
     .card-body {
-      height: 150px!important;
+      height: 140px!important;
+      
   }
+  
   }
 
 
@@ -210,6 +215,7 @@
   #footer .footer-top {
     background: #111;
     padding: 60px 0 30px 0;
+    margin-top: 40px;
   }
   
   #footer .footer-top .footer-info {

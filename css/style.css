@@ -471,16 +471,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 2rem;
 }
 
-.section-header h2::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #50d8af;
-  bottom: 0;
-  left: 0;
-}
+
 
 .section-header p {
   padding: 0;
@@ -751,4 +742,81 @@ body.mobile-nav-active #mobile-nav-toggle {
 .text-uppercase {
   text-transform: uppercase!important;
   text-align: center;
+  font-size: 54px;
+}
+#vision{
+  padding-top: 60px !important;
+  padding-bottom: 0 !important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#target{
+  padding-bottom: 0;
+}
+
+.targetImg::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: 9;
+}
+
+.targetImg{
+  background:url("https://rakeshmina.github.io/lightWebsite2020/img/about-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  position: relative;
+
+}
+#implementation{
+  padding-top:120px !important;
+}
+
+#target .fas{
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+
+.target__content{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
+  background-color: white;
+
+}
+
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+  height: 100%;
+}
+
+.fill img{
+width: 570px;
+}
+
+
+
+@media (max-width:991px){
+.order{
+  order: 1;
+}
+}
+
+
+
+
+
+
+#objective .fas{
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: white;
 }
